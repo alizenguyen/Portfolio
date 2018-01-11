@@ -1,6 +1,25 @@
+/* FONTS */
 @font-face {
   font-family: JustLovely;
   src: url(../fonts/JustLovely.otf); }
+@font-face {
+  font-family: Didot;
+  src: url(../fonts/GFSDidot-REgular.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../fonts/Lato-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: Lato-Light;
+  src: url(../fonts/Lato-Light.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal; }
 .jumbotron {
   height: 90vh;
   background: url(../images/frontjumboimg.png) center center no-repeat;
