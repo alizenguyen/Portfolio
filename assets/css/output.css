@@ -211,4 +211,10 @@ a:hover {
 #modalclose {
   color: white; }
 
+/* BODY HOME */
+.flowerpattern-left {
+  position: absolute;
+  top: 95%;
+  left: 70%; }
+
 /*# sourceMappingURL=output.css.map */
