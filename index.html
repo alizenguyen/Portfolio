@@ -24,28 +24,36 @@
         <div class="container">
             <p id="maintitle">Alize Nguyen</p>
             <p id="subtitle">PORTFOLIO</p>
+
+            <span class="glyphicon glyphicon-menu-down" id="arrowsign" aria-hidden="true"></span>
         </div>
     </div>
 
+
     <!-- Modal -->
     <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <!--Closing Button -->
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="modalclose">
-                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                    </button>
+                    <div class="navbar-brand navigator" data-target="#menuModal">
+                        <img alt="Brand" id="navimg" src="assets/images/menu.png" class="close" data-dismiss="modal" aria-label="Close" id="modalclose">
+                        <p id="navtext">CLOSE</p>
+                    </div>
                 </div>
                 <div class="modal-body">
-                    <a class="menulink text-center" id="aboutlink" href="url">ABOUT</a>
-                    <br>
-                    <a class="menulink" href="url">PORFOLIO</a>
-                    <br>
-                    <a class="menulink" href="url">CONTACT</a>
+                    <p>
+                        <a class="menulink text-center" id="aboutlink" href="url">ABOUT</a>
+                    </p>
+                    <br />
+                    <p>
+                        <a class="menulink text-center" id="porfoliolink" href="url">PORTFOLIO</a>
+                    </p>
+                    <br />
+                    <p>
+                        <a class="menulink text-center" id="contactlink" href="url">CONTACT</a>
+                    </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
 
             </div>
