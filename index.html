@@ -17,13 +17,35 @@
 <body>
 
     <div class="jumbotron">
-        <a class="navbar-brand" href="#">
-            <img alt="Brand" id="navimg" src="assets/images/menu.png">
+        <div class="navigation">
+            <img alt="Brand" id="navimg" src="assets/images/menu.png" data-toggle="modal" data-target="#menuModal">
             <p id="navtext">MENU</p>
-        </a>
+        </div>d
         <div class="container">
             <p id="maintitle">Alize Nguyen</p>
             <p id="subtitle">PORTFOLIO</p>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
         </div>
     </div>
 
