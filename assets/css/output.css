@@ -199,6 +199,15 @@ a:hover {
   letter-spacing: 30px;
   padding-top: 2%; }
 
+.icon-row {
+  margin-top: 10%; }
+
+.icon-link {
+  margin-left: 1%; }
+
+.icon-link:hover {
+  height: 60px; }
+
 #modalclose {
   color: white; }
 
