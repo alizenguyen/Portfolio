@@ -7,29 +7,31 @@
 
 @font-face {
     font-family: Didot;
-    src: url(../fonts/GFSDidot-REgular.ttf);
+    src: url(../fonts/Didot/Didot.ttc);
 }
 
 @font-face {
     font-family: Lato;
-    src: url(../fonts/Lato-Regular.ttf) format('truetype');
+    src: url(../fonts/Lato/Lato-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Lato-Bold;
-    src: url(../fonts/Lato-Bold.ttf) format('truetype');
+    src: url(../fonts/Lato/Lato-Bold.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: Lato-Light;
-    src: url(../fonts/Lato-Light.ttf) format('truetype');
+    src: url(../fonts/Lato/Lato-Light.ttf) format('truetype');
     font-weight: 100;
     font-style: normal;
 }
+
+/* JUMBOTRON */
 
 .jumbotron {
     height: 90vh;
@@ -42,4 +44,13 @@
     font-size: 16em;
     color: #FFF;
     text-align: center;
+    margin-top: 6%;
+}
+
+#subtitle {
+    font-family: Didot;
+    font-size: 25px;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 50px;
 }
