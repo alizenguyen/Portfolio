@@ -1,9 +1,15 @@
+@font-face {
+  font-family: JustLovely;
+  src: url(../fonts/JustLovely.otf); }
 .jumbotron {
-  height: 100vh;
+  height: 90vh;
   background: url(../images/frontjumboimg.png) center center no-repeat;
   background-size: cover; }
 
-p {
-  color: pink; }
+#maintitle {
+  font-family: JustLovely;
+  font-size: 16em;
+  color: #FFF;
+  text-align: center; }
 
 /*# sourceMappingURL=output.css.map */
