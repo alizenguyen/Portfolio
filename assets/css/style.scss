@@ -1,35 +1,4 @@
-/* FONTS */
-
-@font-face {
-    font-family: JustLovely;
-    src: url(../fonts/JustLovely.otf);
-}
-
-@font-face {
-    font-family: Didot;
-    src: url(../fonts/Didot/Didot.ttc);
-}
-
-@font-face {
-    font-family: Lato;
-    src: url(../fonts/Lato/Lato-Regular.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Lato-Bold;
-    src: url(../fonts/Lato/Lato-Bold.ttf) format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Lato-Light;
-    src: url(../fonts/Lato/Lato-Light.ttf) format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
+@import 'font';
 
 /* JUMBOTRON */
 
@@ -39,12 +8,30 @@
     background-size: cover;
 }
 
+#navimg {
+    height: 15px;
+    float: left;
+    margin-left: 15px;
+}
+
+#navimg:hover {
+    height: 20px;
+}
+
+#navtext {
+    font-family: Didot;
+    font-size: 25px;
+    color: #FFF;
+    float: left;
+    margin-left: 10px;
+}
+
 #maintitle {
     font-family: JustLovely;
     font-size: 16em;
     color: #FFF;
     text-align: center;
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 #subtitle {

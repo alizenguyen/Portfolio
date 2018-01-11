@@ -26,12 +26,27 @@
   background: url(../images/frontjumboimg.png) center center no-repeat;
   background-size: cover; }
 
+#navimg {
+  height: 15px;
+  float: left;
+  margin-left: 15px; }
+
+#navimg:hover {
+  height: 20px; }
+
+#navtext {
+  font-family: Didot;
+  font-size: 25px;
+  color: #FFF;
+  float: left;
+  margin-left: 10px; }
+
 #maintitle {
   font-family: JustLovely;
   font-size: 16em;
   color: #FFF;
   text-align: center;
-  margin-top: 6%; }
+  margin-top: 10%; }
 
 #subtitle {
   font-family: Didot;
