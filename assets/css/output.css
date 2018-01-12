@@ -212,6 +212,10 @@ a:hover {
   color: white; }
 
 /* BODY HOME */
+hr {
+  border: solid 2px #9F6662;
+  margin-top: 5%; }
+
 .flowerpattern-right {
   position: absolute;
   top: 100%;
