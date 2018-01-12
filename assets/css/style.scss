@@ -145,6 +145,7 @@ a:hover {
 hr {
     border: solid 2px #9F6662;
     margin-top: 5%;
+    margin-bottom: 4.5%;
 }
 
 .flowerpattern-right {
@@ -168,10 +169,20 @@ hr {
 .experiencetext {
     font-family: Didot;
     font-size: 2.5em;
-    text-align: center;
     color: #091B1D;
 }
 
 .frontendtext {
     color: #9F6662;
+}
+
+.goaltext {
+    color: #9F6662;
+    font-size: 2.75em;
+}
+
+/* FOOTER HOME */
+
+#footerimg {
+    width: 55%;
 }
