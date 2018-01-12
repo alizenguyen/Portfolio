@@ -70,7 +70,7 @@
     color: #FFF;
     position: relative;
     left: 47%;
-    margin-top: 20%;
+    margin-top: 16%;
     font-size: 30px;
     text-align: center;
     -moz-animation: bounce 3s infinite;
@@ -175,7 +175,7 @@ hr {
 
 .bodytext {
     width: 80%;
-    margin: 10% 10% 15% 10%;
+    margin: 10% 10% 18% 10%;
 }
 
 .experiencetext {
@@ -203,36 +203,43 @@ hr {
 .background-box {
     position: absolute;
     z-index: 1;
-    right: 20%;
     bottom: -1100px;
-    width: 300px;
+    width: 400px;
     height: 300px;
 }
 
-.pink {
+.pink-one {
+    background-color: #F3E9E9;
+    bottom: -850px;
+    width: 1960px;
+    height: 30px;
+}
+
+.pink-two {
     background-color: #F3E9E9; 
-    right: 30%;
-    bottom: -1050px;
+    right: 450px;
+    bottom: -1150px;
 }
 
 .white {
     background-color: white; 
-    right: 10%;
-    bottom: -1100px;
+    right: 50px;
+    bottom: -1250px;
 }
 
 #footerimg {
     position: absolute;
     width: 1960px;
     right: 0px;
-    bottom: -1175px;
+    bottom: -1260px;
 }
 
 #getintouchtext {
     position: absolute;
     z-index: 2;
+    top: 210%;
+    left: 5%;
     font-family: JustLovely;
-    font-size: 10em;
+    font-size: 16em;
     color: #FFF;
-    left: 10%;
 }
