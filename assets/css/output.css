@@ -107,6 +107,14 @@
   background: url(../images/frontjumboimg.png) center center no-repeat;
   background-size: cover; }
 
+.homenav {
+  position: fixed; }
+
+.homenav.scrolled {
+  background-color: #A09F9F !important;
+  opacity: 0.15;
+  transition: background-color 200ms linear; }
+
 #navimg {
   height: 15px;
   float: left;

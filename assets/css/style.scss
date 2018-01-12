@@ -1,5 +1,4 @@
 @import 'font';
-
 @import 'animations';
 
 /* *********************************************************************************************************************** */
@@ -11,6 +10,16 @@
     height: 100vh;
     background: url(../images/frontjumboimg.png) center center no-repeat;
     background-size: cover;
+}
+
+.homenav {
+    position: fixed;
+}
+
+.homenav.scrolled {
+    background-color: #A09F9F !important;
+    opacity: 0.15;
+    transition: background-color 200ms linear;
 }
 
 #navimg {
@@ -136,9 +145,11 @@ a:hover {
 .icon-link:hover {
     height: 60px;
 }
+
 #modalclose {
     color: white;
 }
+
 
 /* BODY HOME */
 
@@ -151,7 +162,7 @@ hr {
 .flowerpattern-right {
     position: absolute;
     top: 100%;
-    right:0%;
+    right: 0%;
     width: 500px;
 }
 
@@ -181,6 +192,7 @@ hr {
     color: #9F6662;
     font-size: 2.75em;
 }
+
 
 /* FOOTER HOME */
 
