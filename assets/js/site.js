@@ -10,7 +10,4 @@ $(document).ready(function () {
  $(document).scroll(function () {
     var $nav = $(".homenav");
     $nav.toggleClass('scrolled', $(this).scrollTop() > 750);
-    if (scrollTop > 750) {
-        $(".navtext").hide();
-    };
 }); 
