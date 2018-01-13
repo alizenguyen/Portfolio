@@ -1,0 +1,83 @@
+/* MEDIA QUERIES */
+
+/* applies to width of 980px */
+
+@media only screen and (max-width: 980px) {
+    /* HOME PAGE */
+    #maintitle {
+        font-size: 14em;
+        margin-top: 25%;
+    }
+
+    #arrowsign {
+        margin-top: 23%;
+    }
+
+    .experiencetext {
+        font-size: 1.75em;
+    }
+
+    .goaltext {
+        font-size: 1.9em;
+    }
+
+    .pink-one {
+        bottom: -540px;
+        width: 965px;
+    }
+
+    .contactcontainer {
+        bottom: -950px;
+    }
+    
+    .socialcontainer {
+        bottom: -950px;
+    }
+
+    #footerimg {
+        bottom: -960px;
+    }
+
+    #getintouchtext {
+        top: 162%;
+        font-size: 10rem;
+    }
+
+    /* MODAL */
+    .menulink {
+        padding-top: 6%;
+    }
+}
+
+/* applies to width of 768px */
+
+@media only screen and (max-width: 768px) {
+	/* HOME PAGE */
+    #maintitle {
+        font-size: 13em;
+        margin-top: 25%;
+    }
+
+    #subtitle {
+        font-size: 16px;
+    }
+
+    .pink-one {
+        width: 753px;
+    }
+
+    .contactcontainer {
+        width: 100vh;
+        bottom: -950px;
+    }
+    
+    .socialcontainer {
+        bottom: -950px;
+    }
+}
+
+/* applies to width of 640px */
+
+@media only screen and (max-width: 640px) {
+
+}
