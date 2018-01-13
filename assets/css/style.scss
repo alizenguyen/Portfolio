@@ -215,16 +215,56 @@ hr {
     height: 30px;
 }
 
-.pink-two {
+.contactcontainer {
     background-color: #F3E9E9; 
     right: 450px;
     bottom: -1150px;
 }
 
-.white {
+.contactcontainer:before {
+    background-color: #181818;
+    display: inline-block;
+    content: "";
+    height: 20rem;
+    left: 4.25rem;
+    position: absolute;
+    top: 5rem;
+    width: 3px;
+}
+
+.socialcontainer {
     background-color: white; 
     right: 50px;
     bottom: -1250px;
+}
+
+.socialcontainer:before {
+    background-color: #181818;
+    display: inline-block;
+    content: "";
+    height: 20rem;
+    left: 4.25rem;
+    position: absolute;
+    top: 5rem;
+    width: 3px;
+}
+
+.contactcontainer:before {
+    background-color: #181818;
+    display: inline-block;
+    content: "";
+    height: 20rem;
+    left: 4.25rem;
+    position: absolute;
+    top: 5rem;
+    width: 3px;
+}
+
+.footerheader {
+    font-family: JustLovely;
+    font-size: 7.5rem;
+    padding-top: 3rem;
+    padding-left: 8rem;
 }
 
 #footerimg {
@@ -243,3 +283,4 @@ hr {
     font-size: 16em;
     color: #FFF;
 }
+
