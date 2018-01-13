@@ -254,7 +254,7 @@ hr {
     font-family: JustLovely;
     color: #081A1D;
     font-size: 7.5rem;
-    padding-top: 3rem;
+    padding-top: 4rem;
     padding-left: 8rem;
 }
 
@@ -267,12 +267,24 @@ hr {
     padding-top: 1.5rem;
 }
 
+.footersocialicons {
+    padding-top: 2rem;
+}
+
 .iconfooterone {
     padding-left: 8rem;
 }
 
+.iconfooterone:hover {
+    height: 10rem;
+}
+
 .iconfootertwo {
     padding-left: 4rem;
+}
+
+.iconfootertwo:hover {
+    height: 10rem;
 }
 
 #footerimg {
@@ -288,7 +300,7 @@ hr {
     top: 210%;
     left: 5%;
     font-family: JustLovely;
-    font-size: 16em;
+    font-size: 20rem;
     color: #FFF;
 }
 
