@@ -222,7 +222,7 @@ hr {
 }
 
 .contactcontainer:before {
-    background-color: #181818;
+    background-color: #081A1D;
     display: inline-block;
     content: "";
     height: 20rem;
@@ -239,7 +239,7 @@ hr {
 }
 
 .socialcontainer:before {
-    background-color: #181818;
+    background-color: #081A1D;
     display: inline-block;
     content: "";
     height: 20rem;
@@ -249,22 +249,30 @@ hr {
     width: 3px;
 }
 
-.contactcontainer:before {
-    background-color: #181818;
-    display: inline-block;
-    content: "";
-    height: 20rem;
-    left: 4.25rem;
-    position: absolute;
-    top: 5rem;
-    width: 3px;
-}
 
 .footerheader {
     font-family: JustLovely;
+    color: #081A1D;
     font-size: 7.5rem;
     padding-top: 3rem;
     padding-left: 8rem;
+}
+
+.footerbody {
+    font-family: Lato-light;
+    color: #081A1D;
+    font-size: 1.75rem;
+    letter-spacing: 0.25rem;
+    padding-left: 8rem;
+    padding-top: 1.5rem;
+}
+
+.iconfooterone {
+    padding-left: 8rem;
+}
+
+.iconfootertwo {
+    padding-left: 4rem;
 }
 
 #footerimg {
