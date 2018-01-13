@@ -347,6 +347,10 @@ hr {
 
 /* *********************************************************************************************************************** */
 /* MEDIA QUERIES */
+@media only screen and (max-width: 1440px) {
+  #getintouchtext {
+    top: 220%;
+    font-size: 14rem; } }
 /* applies to width of 980px */
 @media only screen and (max-width: 980px) {
   /* HOME PAGE */
@@ -402,6 +406,7 @@ hr {
 
   .socialcontainer {
     bottom: -950px; } }
+/* applies to width of 640px */
 /* applies to width of 640px */
 
 /*# sourceMappingURL=output.css.map */
