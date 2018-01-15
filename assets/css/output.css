@@ -340,7 +340,7 @@ hr {
   display: inline-block;
   position: absolute;
   z-index: 2;
-  bottom: -1250px;
+  top: 210%;
   left: 5%;
   font-family: JustLovely;
   font-size: 20rem;
