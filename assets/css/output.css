@@ -337,9 +337,10 @@ hr {
   bottom: -1260px; }
 
 #getintouchtext {
+  display: inline-block;
   position: absolute;
   z-index: 2;
-  top: 210%;
+  bottom: -1250px;
   left: 5%;
   font-family: JustLovely;
   font-size: 20rem;
