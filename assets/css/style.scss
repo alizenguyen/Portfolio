@@ -367,5 +367,17 @@ hr {
     animation: fadein 5s;
 }
 
+#arrowsignP {
+    color: #FFF;
+    position: relative;
+    left: 47%;
+    margin-top: 8%;
+    font-size: 30px;
+    text-align: center;
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+}
+
 /* *********************************************************************************************************************** */
 @import 'mediaqueries';
