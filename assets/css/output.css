@@ -421,7 +421,7 @@ hr {
 .img__description {
   position: absolute;
   top: 0;
-  padding: 5%;
+  padding: 4%;
   width: 95%;
   height: 100%;
   background: #6c736e;
@@ -434,6 +434,27 @@ hr {
 #project:hover .img__description {
   visibility: visible;
   opacity: 0.8; }
+
+.projectType {
+  font-family: Lato-Light;
+  font-size: 1rem;
+  letter-spacing: 0.2rem; }
+
+.projectTitle {
+  font-family: Didot;
+  font-size: 5rem;
+  margin-top: 8.5%; }
+
+.projectText {
+  font-family: Lato;
+  margin-bottom: 6%; }
+
+.projectLinks {
+  font-family: Didot;
+  font-size: 1.75rem; }
+
+.projectLink2 {
+  margin-left: 3%; }
 
 /* *********************************************************************************************************************** */
 /* MEDIA QUERIES */
