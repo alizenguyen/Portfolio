@@ -415,8 +415,22 @@ hr {
   animation: bounce 3s infinite; }
 
 /* Portfolio Body */
-#project2 {
-  background-color: pink; }
+.img__description {
+  position: absolute;
+  top: 0;
+  padding: 5%;
+  width: 95%;
+  height: 100%;
+  background: #9F6662;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s; }
+
+#project1:hover .img__description {
+  visibility: visible;
+  opacity: 0.75; }
 
 /* *********************************************************************************************************************** */
 /* MEDIA QUERIES */

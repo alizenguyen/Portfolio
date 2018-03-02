@@ -1,8 +1,6 @@
 @import 'font';
 @import 'animations';
-
 /* *********************************************************************************************************************** */
-
 
 /* JUMBOTRON (HOME) */
 
@@ -78,7 +76,6 @@
     animation: bounce 3s infinite;
 }
 
-
 /* MODAL CONTENT (HOME) */
 
 ul {
@@ -150,7 +147,6 @@ a:hover {
     color: white;
 }
 
-
 /* BODY HOME */
 
 hr {
@@ -193,7 +189,6 @@ hr {
     font-size: 2.75em;
 }
 
-
 /* FOOTER HOME */
 
 .footer {
@@ -216,7 +211,7 @@ hr {
 }
 
 .contactcontainer {
-    background-color: #F3E9E9; 
+    background-color: #F3E9E9;
     right: 450px;
     bottom: -1150px;
 }
@@ -233,7 +228,7 @@ hr {
 }
 
 .socialcontainer {
-    background-color: white; 
+    background-color: white;
     right: 50px;
     bottom: -1250px;
 }
@@ -248,7 +243,6 @@ hr {
     top: 5rem;
     width: 3px;
 }
-
 
 .footerheader {
     font-family: JustLovely;
@@ -306,6 +300,7 @@ hr {
 }
 
 /* *********************************************************************************************************************** */
+
 /* Portfolio Page */
 
 #portfolioJumbo {
@@ -347,7 +342,7 @@ hr {
     /* Internet Explorer */
     -o-animation: fadein 5s;
     /* Opera < 12.1 */
-}    
+}
 
 #portfolioTitleText {
     font-family: Lato-Light;
@@ -380,13 +375,26 @@ hr {
 }
 
 /* Portfolio Body */
-#project1 {
 
+.img__description {
+    position: absolute;
+    top: 0;
+    padding: 5%;
+    width: 95%;
+    height: 100%;
+    background: #9F6662;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
 }
 
-#project2 {
-    background-color: pink;
+#project1:hover .img__description {
+    visibility: visible;
+    opacity: 0.75;
 }
 
 /* *********************************************************************************************************************** */
+
 @import 'mediaqueries';
