@@ -415,6 +415,9 @@ hr {
   animation: bounce 3s infinite; }
 
 /* Portfolio Body */
+.row {
+  margin-top: 3%; }
+
 .img__description {
   position: absolute;
   top: 0;
@@ -428,7 +431,7 @@ hr {
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s; }
 
-#project1:hover .img__description {
+#project:hover .img__description {
   visibility: visible;
   opacity: 0.8; }
 
