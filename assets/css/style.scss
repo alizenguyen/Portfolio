@@ -306,4 +306,66 @@ hr {
 }
 
 /* *********************************************************************************************************************** */
+/* Portfolio Page */
+
+#portfolioJumbo {
+    height: 90vh;
+    background: url(../images/frontjumboimg.png) center center no-repeat;
+    background-size: cover;
+}
+
+#portfolioTitle {
+    font-family: Just Lovely;
+    font-size: 10em;
+    color: #FFF;
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 8%;
+    -webkit-animation: fadein 4s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 4s;
+    /* Internet Explorer */
+    -o-animation: fadein 4s;
+    /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+
+#portfolioSubTitle {
+    font-family: Didot;
+    font-size: 3rem;
+    color: #FFF;
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    -webkit-animation: fadein 5s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 5s;
+    /* Internet Explorer */
+    -o-animation: fadein 5s;
+    /* Opera < 12.1 */
+}    
+
+#portfolioTitleText {
+    font-family: Lato-Light;
+    font-size: 2rem;
+    color: #FFF;
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    -webkit-animation: fadein 5s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 5s;
+    /* Internet Explorer */
+    -o-animation: fadein 5s;
+    /* Opera < 12.1 */
+    animation: fadein 5s;
+}
+
+/* *********************************************************************************************************************** */
 @import 'mediaqueries';
