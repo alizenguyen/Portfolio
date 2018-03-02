@@ -416,11 +416,11 @@ hr {
 
 /* Portfolio Body */
 #project1 {
-  width: 40%; }
+  background-color: #6C736E;
+  padding: 0 1% 0% 8%; }
 
 #project2 {
-  width: 50%;
-  float: left; }
+  background-color: pink; }
 
 /* *********************************************************************************************************************** */
 /* MEDIA QUERIES */
