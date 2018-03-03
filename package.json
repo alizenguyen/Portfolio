@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alizenguyen/Portfolio/issues"
   },
-  "homepage": "https://github.com/alizenguyen/Portfolio#readme"
+  "homepage": "https://github.com/alizenguyen/Portfolio#readme",
+  "dependencies": {
+    "nodemailer": "^4.6.0"
+  }
 }
