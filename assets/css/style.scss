@@ -427,4 +427,62 @@ hr {
 
 /* *********************************************************************************************************************** */
 
+/* Contact Page */
+
+#contactJumbo {
+    height: 70vh;
+    background: url(../images/frontjumboimg.png) center center no-repeat;
+    background-size: cover;
+}
+
+#arrowsignC {
+    color: #FFF;
+    position: relative;
+    left: 47%;
+    margin-top: 3%;
+    font-size: 30px;
+    text-align: center;
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+}
+
+#contactSubTitle {
+    font-family: Didot;
+    font-size: 3rem;
+    color: #FFF;
+    text-align: left;
+    margin-top: -3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    -webkit-animation: fadein 5s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 5s;
+    /* Internet Explorer */
+    -o-animation: fadein 5s;
+    /* Opera < 12.1 */
+}
+
+#contactTitleText {
+    font-family: Lato-Light;
+    font-size: 1.6rem;
+    color: #FFF;
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    -webkit-animation: fadein 5s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 5s;
+    /* Internet Explorer */
+    -o-animation: fadein 5s;
+    /* Opera < 12.1 */
+    animation: fadein 5s;
+}
+
+/* *********************************************************************************************************************** */
+
 @import 'mediaqueries';
